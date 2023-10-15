@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #140056;
+        }
+
+        header {
+            background: rgba(52, 152, 219, 0.9);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header::after {
+            content: '';
+            background: url('header-background.jpg');
+            opacity: 0.4;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        header h1, header p {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        section {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #3498db, #ecf0f1);
+            opacity: 0.2;
+            z-index: -1;
+        }
+
+        section {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background: rgba(52, 152, 219, 0.9);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anshu Rajpoot</h1>
+        <p>Product Development Intern & Mentor at BOT Pvt. Ltd.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="About">
+            <h2 class="section-title">About Myself</h2>
+            <p class="about-text">
+                Ambitious and confident individual seeking an entry-level position
+                to start my career that will provide a chance to enhance my skills.
+                I am willing to explore a wide range of opportunities that can help me
+                gain perspective. I want to work in a dynamic organization that would
+                help me in my personal and professional growth.
+            </p>
+        </section>
+
+        <section id="Projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-item">
+                <h3 class="project-title">Emotion-Based Music Player</h3>
+                <p class="project-description">
+                    Aspiring to merge my passion for music and programming,
+                    I embarked on a project to create an emotion-based music player using Python.
+                    With a profound belief in the power of music to evoke emotions,
+                    I developed an innovative application that leverages machine learning
+                    and audio analysis techniques to dynamically curate playlists based on the user's emotions.
+                    This project showcases my proficiency in Python programming, data analysis, machine learning, and creative problem-solving.
+                </p>
+            </div>
+
+            <div class="project-item">
+                <h3 class="project-title">Task Manager</h3>
+                <p class="project-description">
+                    A simple task manager built with HTML, CSS, and JavaScript. It has functions like adding tasks,
+                    managing task status (whether it's completed or not by striking it off), and deleting tasks, etc.
+                </p>
+            </div>
+
+            <div class="project-item">
+                <h3 class="project-title">Portfolio</h3>
+                <p class="project-description">
+                    Created Portfolio using HTML and CSS.
+                </p>
+            </div>
+        </section>
+
+        <section id="Experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-item">
+                <h3 class="experience-title">Product Development Intern And Mentor at BOT Pvt. Ltd.</h3>
+                <p class="experience-description">
+                    - Worked on "Drone" and "Human Following Robocar" modules.<br>
+                    - Worked on teaching programming language "PYTHON" with its applications like Music Player, Tic Tac Toe, Car Dodge Game, etc.<br>
+                    - Working with "HTML" and "CSS" with its applications like Portfolio, Task Manager, etc.
+                </p>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="experience-title">Web Development Intern at Bharat Intern</h3>
+                <p class="experience-description">
+                    - Worked on making Portfolio using HTML, CSS, and JavaScript.<br>
+                    - Worked on Temperature Converter using HTML, CSS, and JavaScript.
+                </p>
+            </div>
+        </section>
+
+        <section id="Skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-list">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>MySql</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+            <div class="skills-list">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Inter-Personal Skills</li>
+                    <li>Intra-Personal Skills</li>
+                    <li>Presentation</li>
+                    <li>Self-Confidence</li>
+                    <li>Leadership</li>
+                    <li>Team Management</li>
+                    <li>Communication</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <h2 class="section-title">Contact</h2>
+            <p class="contact-info">Mail me at: anshurjpt94@gmail.com</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Anshu Rajpoot. All rights reserved.</p>
+    </footer>
+</body>
+</html>
